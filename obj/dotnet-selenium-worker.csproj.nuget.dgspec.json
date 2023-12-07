@@ -41,6 +41,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.16.1, )"

@@ -15,6 +15,22 @@
           }
         }
       },
+      "Selenium.Support/4.16.1": {
+        "type": "package",
+        "dependencies": {
+          "Selenium.WebDriver": "4.16.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/WebDriver.Support.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Selenium.WebDriver/4.16.1": {
         "type": "package",
         "dependencies": {
@@ -70,6 +86,20 @@
         "packageIcon.png"
       ]
     },
+    "Selenium.Support/4.16.1": {
+      "sha512": "HbsaBGb4or8QoN0JtfRqar5BZ3Fc6f2mC64WX7aH4bxeSyV4qx9FBma7b7YZ8DGNYiSEFbDGAXSSn5SVECQ9Ow==",
+      "type": "package",
+      "path": "selenium.support/4.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/WebDriver.Support.dll",
+        "lib/netstandard2.0/WebDriver.Support.xml",
+        "selenium.support.4.16.1.nupkg.sha512",
+        "selenium.support.nuspec"
+      ]
+    },
     "Selenium.WebDriver/4.16.1": {
       "sha512": "PgXVThQj7yyIHexKZd53sg0y/R/PLTYwv9iXJW0VQqThS1N04NIqLHUih3ye1zphdMJPHdSQLaitxITTsfIltg==",
       "type": "package",
@@ -116,6 +146,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "Selenium.Support >= 4.16.1",
       "Selenium.WebDriver >= 4.16.1",
       "Selenium.WebDriver.ChromeDriver >= 120.0.6099.7100"
     ]
@@ -161,6 +192,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "Selenium.Support": {
+            "target": "Package",
+            "version": "[4.16.1, )"
+          },
           "Selenium.WebDriver": {
             "target": "Package",
             "version": "[4.16.1, )"
