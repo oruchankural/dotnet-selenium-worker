@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>dotnet_selenium_worker</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Selenium.WebDriver" Version="4.16.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="120.0.6099.7100" />
+  </ItemGroup>
+
+</Project>
