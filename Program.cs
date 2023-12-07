@@ -17,8 +17,8 @@ var driver = new ChromeDriver(driverService, chromeOptions, TimeSpan.FromSeconds
 // Web sayfasına gidin
 driver.Navigate().GoToUrl("http://support.cloudsupporttest.con.tc/");
 
-string email = "oruchan@feysoft.com.tr";
-string password = "123123";
+string email = "x";
+string password = "x";
 
 // Email ve şifre girişi
 var inputEmail = driver.FindElement(By.Id("inputEmail"));
