@@ -24,8 +24,8 @@ etsyCracker.FindProduct(driver);
 
 /*driver.Navigate().GoToUrl("http://support.cloudsupporttest.con.tc/");
 
-string email = "oruchan@feysoft.com.tr";
-string password = "123123";
+string email = "x";
+string password = "x";
 
 var inputEmail = driver.FindElement(By.Id("inputEmail"));
 inputEmail.SendKeys(email);
@@ -85,4 +85,8 @@ for (int i = 0; i < 100; i++)
     }
 }
 
+<<<<<<< HEAD
 driver.Quit();*/
+=======
+driver.Quit();
+>>>>>>> 363b72c6c21060e4038c57523cee8d289cc9ffc9
