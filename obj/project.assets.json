@@ -158,11 +158,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Editor\\Desktop\\dotnet-selenium-worker\\dotnet-selenium-worker\\dotnet-selenium-worker.csproj",
+      "projectUniqueName": "c:\\Users\\Editor\\Desktop\\Homie\\dotnet-selenium-worker\\dotnet-selenium-worker\\dotnet-selenium-worker.csproj",
       "projectName": "dotnet-selenium-worker",
-      "projectPath": "C:\\Users\\Editor\\Desktop\\dotnet-selenium-worker\\dotnet-selenium-worker\\dotnet-selenium-worker.csproj",
+      "projectPath": "c:\\Users\\Editor\\Desktop\\Homie\\dotnet-selenium-worker\\dotnet-selenium-worker\\dotnet-selenium-worker.csproj",
       "packagesPath": "C:\\Users\\Editor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Editor\\Desktop\\dotnet-selenium-worker\\dotnet-selenium-worker\\obj\\",
+      "outputPath": "c:\\Users\\Editor\\Desktop\\Homie\\dotnet-selenium-worker\\dotnet-selenium-worker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
